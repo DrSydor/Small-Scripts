@@ -9,7 +9,7 @@ from skimage import io
 import cv2
 
 # Set the path to the directory containing the images
-image_dir = 'D:/Brumell Lab Dropbox/Andrew Sydor/Andrew Sydor/Trainee Projects/James- Rab10/Correlative/Summer 2022 FIB-SEM Sample/Correlation/Run 2/Flow Denoising/Tests/TrakEM2 First'
+image_dir = 'D:/Images'
 
 # Set the number of rows and columns in the grid
 num_rows = 13
