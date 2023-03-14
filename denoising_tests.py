@@ -13,7 +13,6 @@ Alot of this code was fro:
 
 Author: Dr. Sreenivas Bhattiprolu
 https://github.com/bnsreenu/python_for_microscopists/blob/master/094_denoising_MRI.py
-
 """
 
 from skimage import io, img_as_float, img_as_ubyte
