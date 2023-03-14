@@ -92,7 +92,7 @@ patch_distances = [2, 5, 10]
 for size in patch_sizes:
     for dist in patch_distances:
         NLM_img = denoise_nl_means(noisy_img, h=1.15 * sigma_est, fast_mode=False,
-                                       patch_size=9, patch_distance=5, multichannel=False)
+                                       patch_size=size, patch_distance=dist, multichannel=False)
         NLM_filename = "NLM_size_" + str(size) + "_dist_" + str(dist) + ".tif"
         NLM_img_8bit = cv2.normalize(NLM_img, None, 0, 255, cv2.NORM_MINMAX, dtype=cv2.CV_8U)
         io.imsave(NLM_filename, NLM_img_8bit)
